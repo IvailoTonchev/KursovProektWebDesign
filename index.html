@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добре дошли в ElitFoods</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Хедър и навигация -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" ></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Продукти ▼</a>
+                    <ul class="dropdown-content">
+                        <li><a href="nuts.html">Ядки</a></li>
+                        <li><a href="bars.html">Барове</a></li>
+                        <li><a href="sweets.html">Сладки</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">За нас</a></li>
+                <li><a href="gallery.html">Галерия</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background-image">
+        <style>body{
+    background-image: url('my-background.jpg'); /* Име на файла */
+    background-size: cover;
+    background-repeat: no-repeat;}
+</style>
+</div>
+    <!-- HERO секция -->
+    <section class="hero">
+        <h1>Натурални и качествени продукти от ElitFoods</h1>
+        <p>Открийте богатия ни асортимент от ядки, барове и сладки!</p>
+        <a href="products.html" class="btn">Разгледай продуктите</a>
+    </section>
+
+    <!-- Продуктови категории -->
+    <section class="categories">
+        <h2>Нашите категории</h2>
+        <div class="category-grid">
+            <div class="category">
+                <h3>Ядки</h3>       
+                <a href="nuts.html"><img src="elit_product1.jpg" alt="Ядки"></a>
+                <p>Висококачествени печени и сурови ядки.</p>       
+            </div>
+            <div class="category">
+                <h3>Енергийни Барове</h3>
+                <a href="bars.html"><img src="elit_product2.jpg" alt="Енергийни барове"></a>
+                <p>Перфектни за активен начин на живот.</p>
+            </div>
+            <div class="category">
+                <h3>Сладки</h3>
+                <a href="sweets.html"><img src="elit_product3.jpg" alt="Сладки"></a>
+                <p>Натурални и вкусни десерти.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзиви -->
+    <section class="testimonials">
+        <h2>Какво казват нашите клиенти</h2>
+        <div class="testimonial">
+            <p>"ElitFoods предлага най-добрите ядки на пазара! Препоръчвам горещо!"</p>
+            <h4>- Ванеса Петрова</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Обожавам техните енергийни барове – перфектни за работния ми ден!"</p>
+            <h4>- Иван Димитров</h4>
+        </div>
+    </section>
+
+    <!-- Футър -->
+    <footer>
+        <p>Контакти: info@elitfoods.bg | Телефон: 0888 123 456</p>
+    </footer>
+
+</body>
+</html>

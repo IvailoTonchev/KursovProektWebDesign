@@ -1,0 +1,100 @@
+/* Стил за header */
+header {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+ color: rgb(7, 6, 6);
+ font-size: larger;
+ background-image: url('my-background.jpg');
+ background-size: 60% auto; /* Ширина 60%, височина автоматична */
+ background-attachment: fixed; /* Фонът остава фиксиран при скрол */
+ background-position: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Основен стил за main */
+main {
+    padding: 20px;
+    padding-bottom: 80px; /* Пространство за футера */
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Стил за footer */
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px; /* Място между основното съдържание и футера */
+}
+/* Падащо меню */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Клас за показване на менюто */
+.show {
+    display: block;
+}
+img {
+    width: 450px;       /* Фиксирана ширина */
+    height: 300px;      /* Фиксирана височина */
+    object-fit: contain; /* Показва цялата снимка без рязане */
+    background: #f0f0f0; /* Фон за "празните" части (ако снимката не запълва пространството) */
+}
+  .header-logo, 
+header img, 
+.logo-container img { 
+  width: 150px !important; /* Принудително override */
+  height: auto !important;
+}
